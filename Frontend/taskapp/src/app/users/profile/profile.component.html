@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="main-body">    
+          <div class="row gutters-sm">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img [src]="user.photoUrl" alt="Admin" class="rounded-circle" width="150">
+                    <div class="mt-3">
+                      <h4>{{ user.firstName }} {{ user.lastName }}</h4>
+                      <p class="text-secondary mb-1">{{ 'PROFILE_USER_STATUS' | translate }}</p>
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <a (click)="logOff()" class="btn btn-danger " >{{ 'PROFILE_LOGOFF_BUTTON' | translate }}</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">{{ 'PROFILE_FIRST_NAME' | translate }}</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{ user.firstName }}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">{{ 'PROFILE_LAST_NAME' | translate }}</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{ user.lastName }}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">{{ 'PROFILE_EMAIL' | translate }}</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{ user.email }}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">{{ 'PROFILE_CREATED_TASKS' | translate }}</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{ userCreatedTasks.length }}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">{{ 'PROFILE_ASSIGNED_TASKS' | translate }}</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{ userAssignedTasks.length }}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <a class="btn btn-info " >{{ 'PROFILE_EDIT_BUTTON' | translate }}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>

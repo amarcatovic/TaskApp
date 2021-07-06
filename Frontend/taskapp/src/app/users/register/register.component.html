@@ -1,0 +1,31 @@
+<div class="center">
+    <form [formGroup]="registerForm" (ngSubmit)="registerUser()">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">{{ 'EMAIL_ADDRESS_LABEL' | translate }}</label>
+            <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">{{ 'EMAIL_ADDRESS_TEXT' | translate }}</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">{{ 'PASSWORD_LABEL' | translate }}</label>
+            <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="fname" class="form-label">{{ 'FIRST_NAME_LABEL' | translate }}</label>
+            <input formControlName="firstName" type="text" class="form-control" id="fname">
+        </div>
+        <div class="mb-3">
+            <label for="lname" class="form-label">{{ 'LAST_NAME_LABEL' | translate }}</label>
+            <input formControlName="lastName" type="text" class="form-control" id="lname">
+        </div>
+        <div class="form-group">
+            <label for="pic" style="margin: 0px 20px 20px 0;">{{ 'PROFILE_PICTURE_LABEL' | translate }}: </label>
+            <input (change)="handleFileInput($event.target.files)" type="file" class="form-control-file" id="pic">
+        </div>
+        <div class="submit-area">
+            <button type="submit" class="btn btn-primary">{{ 'SUBMIT_BUTTON_REGISTER' | translate }}</button>
+            <div *ngIf="isLoading" class="spinner-border" role="status" style="margin-left: 20px;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </form>
+</div>

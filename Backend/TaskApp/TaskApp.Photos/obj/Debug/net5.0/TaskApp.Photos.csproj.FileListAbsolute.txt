@@ -1,0 +1,268 @@
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\appsettings.Development.json
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\appsettings.json
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.exe
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.deps.json
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.runtimeconfig.json
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.runtimeconfig.dev.json
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ref\TaskApp.Photos.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.pdb
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\AutoMapper.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\DnsClient.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Humanizer.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.OpenApi.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Bson.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Driver.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Newtonsoft.Json.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Polly.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\RabbitMQ.Client.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\RabbitMQ.Messaging.Infrastructure.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Serilog.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\SharpCompress.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.Convention.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.Hosting.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.Runtime.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.TypedParts.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.csprojAssemblyReference.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.GeneratedMSBuildEditorConfig.editorconfig
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.AssemblyInfoInputs.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.AssemblyInfo.cs
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.csproj.CoreCompileInputs.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.MvcApplicationPartsAssemblyInfo.cs
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.MvcApplicationPartsAssemblyInfo.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\staticwebassets\TaskApp.Photos.StaticWebAssets.Manifest.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\staticwebassets\TaskApp.Photos.StaticWebAssets.xml
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\scopedcss\bundle\TaskApp.Photos.styles.css
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.RazorTargetAssemblyInfo.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.csproj.CopyComplete
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\ref\TaskApp.Photos.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.pdb
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.genruntimeconfig.cache
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\CloudinaryDotNet.dll
+A:\Diplomski Rad\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\appsettings.Development.json
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\appsettings.json
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.exe
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.deps.json
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.runtimeconfig.json
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.runtimeconfig.dev.json
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ref\TaskApp.Photos.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\TaskApp.Photos.pdb
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\AutoMapper.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\CloudinaryDotNet.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\DnsClient.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Humanizer.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.OpenApi.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Bson.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Driver.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Newtonsoft.Json.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Polly.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\RabbitMQ.Client.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\RabbitMQ.Messaging.Infrastructure.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Serilog.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\SharpCompress.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.Convention.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.Hosting.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.Runtime.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.Composition.TypedParts.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.csprojAssemblyReference.cache
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.GeneratedMSBuildEditorConfig.editorconfig
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.AssemblyInfoInputs.cache
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.AssemblyInfo.cs
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.csproj.CoreCompileInputs.cache
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.MvcApplicationPartsAssemblyInfo.cs
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.MvcApplicationPartsAssemblyInfo.cache
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\staticwebassets\TaskApp.Photos.StaticWebAssets.Manifest.cache
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\staticwebassets\TaskApp.Photos.StaticWebAssets.xml
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\scopedcss\bundle\TaskApp.Photos.styles.css
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.RazorTargetAssemblyInfo.cache
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.csproj.CopyComplete
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\ref\TaskApp.Photos.dll
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.pdb
+A:\Thesis\MainApp\Backend\TaskApp\TaskApp.Photos\obj\Debug\net5.0\TaskApp.Photos.genruntimeconfig.cache

@@ -1,0 +1,42 @@
+{
+    "HOME_PAGE": "Početna",
+    "LOGIN_PAGE": "Prijava",
+    "REGISTER_PAGE": "Registracija",
+    "PROFILE_PAGE": "Profil",
+    "SELECT_LANGUAGE": "Jezici",
+    "ENGLISH_LANGUAGE": "Engleski",
+    "BOSNIAN_LANGUAGE": "Bosanski",
+
+    "EMAIL_ADDRESS_LABEL": "Email adresa",
+    "EMAIL_ADDRESS_TEXT": "Nikada nećemo podijeliti vašu email adresu ni s kim drugim.",
+    "PASSWORD_LABEL": "Lozinka",
+    "FIRST_NAME_LABEL": "Ime",
+    "LAST_NAME_LABEL": "Prezime",
+    "PROFILE_PICTURE_LABEL": "Profilna Slika",
+    "SUBMIT_BUTTON_REGISTER": "Registracija",
+    "SUBMIT_BUTTON_LOGIN": "Prijava",
+
+    "PROFILE_USER_STATUS": "TaskApp Korisnik",
+    "PROFILE_FIRST_NAME": "Ime",
+    "PROFILE_LAST_NAME": "Prezime",
+    "PROFILE_EMAIL": "Email",
+    "PROFILE_CREATED_TASKS": "Broj kreiranih Taskova",
+    "PROFILE_ASSIGNED_TASKS": "Broj dodijeljenih taskova",
+    "PROFILE_LOGOFF_BUTTON": "Odjavite se",
+    "PROFILE_EDIT_BUTTON": "Uredi",
+
+    "HOME_ADD_TASK": "Dodaj novi Task",
+    "HOME_DOWNLOAD_TASK": "Preuzmite Taskove",
+    "HOME_ASSIGNEE": "Dodijeljeno",
+    "HOME_FINISH_DATE": "Datum završetka",
+    "HOME_EDIT_TASK": "Uredi",
+
+    "CREATE_TASK_TITLE": "Naslov",
+    "CREATE_TASK_DESC": "Opis",
+    "CREATE_TASK_ASSIGNEE": "Izaberite osobu",
+    "CREATE_TASK_START_DATE": "Izaberite datum početka",
+    "CREATE_TASK_FINISH_DATE": "Izaberite datum završetka",
+    "CREATE_TASK_SUBMIT": "Kreiraj Task",
+
+    "EDIT_TASK_SUBMIT": "Uredi Task"
+}

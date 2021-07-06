@@ -1,0 +1,19 @@
+.done {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 360px;
+    text-align: center;
+}
+
+#done-icon {
+  position: absolute;
+  top: 50%;
+}
+
+form {
+    width: 100%;
+}

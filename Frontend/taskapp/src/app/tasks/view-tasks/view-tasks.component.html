@@ -1,0 +1,52 @@
+<div class="container">
+    <div *ngIf="user.id" class="example-button-container">
+        <div class="task-options">
+            <span>
+                <button (click)="openDialog()" mat-fab color="primary">
+                    <mat-icon>add</mat-icon>
+                </button>
+                <span style="font-size: 36px; margin-left: 10px;">{{ 'HOME_ADD_TASK' | translate }}</span>
+            </span>
+            <span>
+                <span style="font-size: 36px; margin-right: 10px;">{{ 'HOME_DOWNLOAD_TASK' | translate }}</span>
+                <a [href]="downloadTasksUrl" target="blank" mat-fab>
+                    <mat-icon>cloud_download</mat-icon>
+                </a>
+            </span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-4 col-md-6" *ngFor="let task of tasks">
+            <div class="card">
+                <div class="card-block" style="min-height: 500px;">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-auto">
+                            <img class="img-fluid rounded-circle" style="height: 70px; width:70px; border-radius: 50%;" [src]="task.user.photoUrl" alt="dashboard-user">
+                        </div>
+                        <div class="col">
+                            <h4>{{ task.user.email}}</h4>
+                        </div>
+                    </div>
+                    <ul class="task-list">
+                        <li>
+                            <i class="task-icon bg-c-green"></i>
+                            <h2>{{ task.title }}</h2>
+                            <span class="float-right text-muted">{{ task.startDate | date }}</span>
+                        </li>
+                        <li>
+                            <i class="task-icon bg-c-green"></i>
+                            <h6>{{ task.description }}</h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <hr>
+                    <div>{{ 'HOME_ASSIGNEE' | translate }}: <img class="assignee-icon" [src]="task.assignee.photoUrl" alt="Assignee Photo"> {{ task.assignee.email }}</div>
+                    <div>{{ 'HOME_FINISH_DATE' | translate }}: {{ task.finishDate | date }}</div>
+                    <button *ngIf="task.user.id === user.id" (click)="openEditTaskDialog(task)" type="button" class="btn btn-warning">{{ 'HOME_EDIT_TASK' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

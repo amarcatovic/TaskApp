@@ -1,0 +1,18 @@
+<div class="center">
+    <form [formGroup]="loginForm" (ngSubmit)="logUserIn()">
+        <div class="mb-3">
+            <label for="email" class="form-label">{{ 'EMAIL_ADDRESS_LABEL' | translate }}</label>
+            <input formControlName="email" type="email" class="form-control" id="email" >
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">{{ 'PASSWORD_LABEL' | translate }}</label>
+            <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="submit-area">
+            <button type="submit" class="btn btn-primary">{{ 'SUBMIT_BUTTON_LOGIN' | translate }}</button>
+            <div *ngIf="isLoading" class="spinner-border" role="status" style="margin-left: 20px;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </form>
+</div>

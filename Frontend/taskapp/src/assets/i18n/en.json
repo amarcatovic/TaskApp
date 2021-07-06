@@ -1,0 +1,42 @@
+{
+    "HOME_PAGE": "Home",
+    "LOGIN_PAGE": "Login",
+    "REGISTER_PAGE": "Register",
+    "PROFILE_PAGE": "Profile",
+    "SELECT_LANGUAGE": "Languages",
+    "ENGLISH_LANGUAGE": "English",
+    "BOSNIAN_LANGUAGE": "Bosnian",
+
+    "EMAIL_ADDRESS_LABEL": "Email address",
+    "EMAIL_ADDRESS_TEXT": "We'll never share your email with anyone else.",
+    "PASSWORD_LABEL": "Password",
+    "FIRST_NAME_LABEL": "First Name",
+    "LAST_NAME_LABEL": "Last Name",
+    "PROFILE_PICTURE_LABEL": "Profile Picture",
+    "SUBMIT_BUTTON_REGISTER": "Register",
+    "SUBMIT_BUTTON_LOGIN": "Login",
+
+    "PROFILE_USER_STATUS": "TaskApp User",
+    "PROFILE_FIRST_NAME": "First Name",
+    "PROFILE_LAST_NAME": "Last Name",
+    "PROFILE_EMAIL": "Email",
+    "PROFILE_CREATED_TASKS": "Number of Created Tasks",
+    "PROFILE_ASSIGNED_TASKS": "Number of Assigned Tasks",
+    "PROFILE_LOGOFF_BUTTON": "Log off",
+    "PROFILE_EDIT_BUTTON": "Edit",
+
+    "HOME_ADD_TASK": "Add New Task",
+    "HOME_DOWNLOAD_TASK": "Download Tasks",
+    "HOME_ASSIGNEE": "Assignee",
+    "HOME_FINISH_DATE": "Finish Date",
+    "HOME_EDIT_TASK": "Edit",
+
+    "CREATE_TASK_TITLE": "Title",
+    "CREATE_TASK_DESC": "Description",
+    "CREATE_TASK_ASSIGNEE": "Choose an assignee",
+    "CREATE_TASK_START_DATE": "Choose a start date",
+    "CREATE_TASK_FINISH_DATE": "Choose a finish date",
+    "CREATE_TASK_SUBMIT": "Create Task",
+
+    "EDIT_TASK_SUBMIT": "Edit Task"
+}

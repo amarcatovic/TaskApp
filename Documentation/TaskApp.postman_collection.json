@@ -1,0 +1,307 @@
+{
+	"info": {
+		"_postman_id": "d0e26c9b-b6ff-4453-897c-745622c25c95",
+		"name": "TaskApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"amarzenica@gmail.com\",\r\n  \"password\": \"Amaramar123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5002/api/Auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"Auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User By Email",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Users/amarzenica@gmail.com",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users",
+						"amarzenica@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"amarzenica@gmail.com\",\r\n    \"firstName\": \"Amar\",\r\n    \"lastName\": \"Ćatović\",\r\n    \"password\": \"Amaramar123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Photo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "userId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "PhotoFile",
+							"type": "file",
+							"src": "/C:/Users/amar_/Desktop/1024px-User_icon_2.svg.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5003/api/photos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"api",
+						"photos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Task (JWT)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"string\",\r\n  \"description\": \"string\",\r\n  \"userId\": 1,\r\n  \"assigneeId\": 1,\r\n  \"startDate\": \"2021-06-30T12:27:12.104Z\",\r\n  \"finishDate\": \"2021-07-01T12:27:12.104Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5004/api/Tasks",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"Tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top 10 Rescent Tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5004/api/Tasks",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"Tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users Tasks (JWT)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5004/api/Tasks/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"Tasks",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Assigned Tasks (JWT)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5004/api/Tasks/assigned/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"Tasks",
+						"assigned",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Expiring tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5004/api/Tasks/expiring",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"Tasks",
+						"expiring"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Download Tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5004/api/tasks/download",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"tasks",
+						"download"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Task (JWT)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"Organise teambuilding teeeeeeeest\",\r\n        \"description\": \"We need to organise team building this week\",\r\n        \"startDate\": \"2021-07-04T21:12:42.0831165\",\r\n        \"finishDate\": \"2021-07-07T21:12:42.0831169\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5004/api/tasks/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"api",
+						"tasks",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

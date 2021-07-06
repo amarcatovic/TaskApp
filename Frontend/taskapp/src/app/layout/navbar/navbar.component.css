@@ -1,0 +1,6 @@
+.lang-img, .profile-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
