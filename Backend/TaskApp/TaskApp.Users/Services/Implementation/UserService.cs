@@ -3,28 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.Storage;
 using RabbitMQ.Messaging.Infrastructure;
+using TaskApp.Users.Data;
 using TaskApp.Users.Data.Commands;
 using TaskApp.Users.Data.Dtos;
 using TaskApp.Users.Data.Events;
 using TaskApp.Users.Data.Models;
-using TaskApp.Users.Repositories;
 using TaskApp.Users.Utilities.RestClients;
 
 namespace TaskApp.Users.Services.Implementation
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly UsersContext _context;
         private readonly IMessagePublisher _messagePublisher;
         private readonly IMapper _mapper;
         private PhotosRestClient _photosRestClient;
 
-        public UserService(IUserRepository userRepository,
+        public UserService(UsersContext context,
             IMessagePublisher messagePublisher,
             IMapper mapper)
         {
-            _userRepository = userRepository;
+            _context = context;
             _messagePublisher = messagePublisher;
             _mapper = mapper;
             _photosRestClient = new PhotosRestClient();
@@ -37,18 +38,28 @@ namespace TaskApp.Users.Services.Implementation
         /// <returns>True if user was added successfully, false otherwise</returns>
         public async Task<UserReadDto> AddUserAsync(CreateUser user)
         {
-            var newUser = _mapper.Map<User>(user);
-            newUser = await _userRepository.AddUserAsync(newUser);
-            if (newUser == null)
+            await using IDbContextTransaction transaction = await _context.Database.BeginTransactionAsync();
+            try
             {
+                var newUser = _mapper.Map<User>(user);
+                var userAdded = await _context.Users.AddAsync(newUser);
+                newUser = userAdded.Entity;
+
+                var userCreatedEvent = _mapper.Map<UserCreated>(user);
+                userCreatedEvent.Id = newUser.Id;
+                await _messagePublisher.PublishMessageAsync(userCreatedEvent.MessageType, userCreatedEvent,
+                    string.Empty);
+
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                return _mapper.Map<UserReadDto>(userCreatedEvent);
+            }
+            catch
+            {
+                await transaction.RollbackAsync();
                 return null;
             }
-
-            var userCreatedEvent = _mapper.Map<UserCreated>(user);
-            userCreatedEvent.Id = newUser.Id;
-            await _messagePublisher.PublishMessageAsync(userCreatedEvent.MessageType, userCreatedEvent, string.Empty);
-
-            return _mapper.Map<UserReadDto>(userCreatedEvent);
         }
 
         /// <summary>
