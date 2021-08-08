@@ -1,6 +1,9 @@
-﻿namespace TaskApp.Users.Data.Models
+﻿using System;
+using TaskApp.Users.Data.Shared;
+
+namespace TaskApp.Users.Data.Models
 {
-    public class User
+    public class User : IEntity
     {
         /// <summary>
         /// User's Unique Id
@@ -21,5 +24,9 @@
         /// User's last name
         /// </summary>
         public string LastName { get; set; }
+
+        public DateTime DateCreated { get; set; }
+
+        public DateTime DateModified { get; set; }
     }
 }

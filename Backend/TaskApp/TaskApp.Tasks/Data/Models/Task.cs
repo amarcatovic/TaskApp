@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TaskApp.Tasks.Data.Shared;
 
 namespace TaskApp.Tasks.Data.Models
 {
-    public class Task
+    public class Task : IEntity
     {
         /// <summary>
         /// Task id
@@ -52,5 +53,9 @@ namespace TaskApp.Tasks.Data.Models
             StartDate = DateTime.Now;
             IsDone = false;
         }
+
+        public DateTime DateCreated { get; set; }
+
+        public DateTime DateModified { get; set; }
     }
 }

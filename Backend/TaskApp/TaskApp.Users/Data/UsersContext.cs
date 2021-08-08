@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TaskApp.Users.Data.Models;
+using TaskApp.Users.Data.Shared;
 
 namespace TaskApp.Users.Data
 {
@@ -38,6 +40,28 @@ namespace TaskApp.Users.Data
                 .HasDefaultValue(null);
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        {
+            var changes = ChangeTracker.Entries()
+                .Where(x => x.State == EntityState.Added || x.State == EntityState.Modified);
+
+            foreach (var change in changes)
+            {
+                var entity = (IEntity) change.Entity;
+
+                if (change.State == EntityState.Added)
+                {
+                    entity.DateCreated = DateTime.Now;
+                }
+
+                if (change.State == EntityState.Modified)
+                {
+                    entity.DateCreated = DateTime.Now;
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
         }
     }
 }

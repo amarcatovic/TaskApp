@@ -17,8 +17,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using RabbitMQ.Messaging.Infrastructure.Configuration;
 using TaskApp.Users.Data;
-using TaskApp.Users.Repositories;
-using TaskApp.Users.Repositories.Implementation;
 using TaskApp.Users.Services;
 using TaskApp.Users.Services.Implementation;
 using TaskApp.Users.Utilities.MigrateDb;
@@ -71,7 +69,6 @@ namespace TaskApp.Users
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
