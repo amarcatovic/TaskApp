@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using RabbitMQ.Messaging.Infrastructure;
 using TaskApp.Users.Data;
@@ -69,8 +70,9 @@ namespace TaskApp.Users.Services.Implementation
         /// <returns>User object or null</returns>
         public async Task<UserReadDto> GetUserByIdAsync(int id)
         {
-            var userFromDb = await _userRepository
-                .GetUserByIdAsync(id);
+            var userFromDb = await _context.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Id == id);
 
             var result = _mapper.Map<UserReadDto>(userFromDb);
             CreateUserInitials(ref result);
@@ -90,8 +92,9 @@ namespace TaskApp.Users.Services.Implementation
         /// <returns>User object or null</returns>
         public async Task<UserReadDto> GetUserByEmailAsync(string email)
         {
-            var userFromDb = await _userRepository
-                .GetUserByEmailAsync(email);
+            var userFromDb = await _context.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Email == email);
 
             var result = _mapper.Map<UserReadDto>(userFromDb);
             CreateUserInitials(ref result);
@@ -110,7 +113,9 @@ namespace TaskApp.Users.Services.Implementation
         /// <returns>List of User objects</returns>
         public async Task<IEnumerable<UserReadDto>> GetAllUsersAsync()
         {
-            var usersFromDb = await _userRepository.GetAllUsersAsync();
+            var usersFromDb = await _context.Users
+                .AsNoTracking()
+                .ToListAsync();
             var result = new List<UserReadDto>();
 
             foreach (var user in usersFromDb)

@@ -42,6 +42,7 @@ namespace TaskApp.Tasks.Repositories.Implementation
         public async Task<List<Task>> GetMostRecentTasksAsync()
         {
             return await _context.Tasks
+                .AsNoTracking()
                 .OrderByDescending(t => t.StartDate)
                 .Take(10)
                 .ToListAsync();
@@ -50,6 +51,7 @@ namespace TaskApp.Tasks.Repositories.Implementation
         public async Task<List<Task>> GetAllUserTasksAsync(int userId)
         {
             return await _context.Tasks
+                .AsNoTracking()
                 .Where(t => t.UserId == userId)
                 .ToListAsync();
         }
@@ -57,6 +59,7 @@ namespace TaskApp.Tasks.Repositories.Implementation
         public async Task<List<Task>> GetAllUserAssignedTasksAsync(int userId)
         {
             return await _context.Tasks
+                .AsNoTracking()
                 .Where(t => t.AssigneeId == userId)
                 .ToListAsync();
         }
@@ -64,6 +67,7 @@ namespace TaskApp.Tasks.Repositories.Implementation
         public async Task<List<Task>> GetAllExpiringTasksAsync()
         {
             return await _context.Tasks
+                .AsNoTracking()
                 .Where(t => !t.IsDone)
                 .Where(t => t.FinishDate.AddDays(1) > DateTime.Now)
                 .ToListAsync();
