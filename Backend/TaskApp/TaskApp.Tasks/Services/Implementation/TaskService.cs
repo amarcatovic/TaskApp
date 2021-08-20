@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using RabbitMQ.Messaging.Infrastructure;
+using TaskApp.Tasks.Data;
 using TaskApp.Tasks.Data.Commands;
 using TaskApp.Tasks.Data.Dtos;
 using TaskApp.Tasks.Data.Events;
-using TaskApp.Tasks.Repositories;
 using TaskApp.Tasks.Utilities.RestClients;
 using Task = TaskApp.Tasks.Data.Models.Task;
 
@@ -15,16 +15,16 @@ namespace TaskApp.Tasks.Services.Implementation
 {
     public class TaskService : ITaskService
     {
-        private readonly ITaskRepository _taskRepository;
+        private readonly TaskContext _context;
         private readonly IMessagePublisher _messagePublisher;
         private readonly IMapper _mapper;
         private UsersRestClient _usersRestClient;
 
-        public TaskService(ITaskRepository taskRepository,
+        public TaskService(TaskContext context,
             IMessagePublisher messagePublisher,
             IMapper mapper)
         {
-            _taskRepository = taskRepository;
+            _context = context;
             _messagePublisher = messagePublisher;
             _mapper = mapper;
             _usersRestClient = new UsersRestClient();
@@ -32,8 +32,12 @@ namespace TaskApp.Tasks.Services.Implementation
         public async Task<bool> CreateTaskAsync(CreateTask createTask)
         {
             var task = _mapper.Map<Data.Models.Task>(createTask);
-            if (await _taskRepository.CreateTaskAsync(task))
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
             {
+                await _context.Tasks.AddAsync(task);
+                await _context.SaveChangesAsync();
+
                 var taskCreatedEvent = new TaskCreated()
                 {
                     Title = createTask.Title,
@@ -44,11 +48,16 @@ namespace TaskApp.Tasks.Services.Implementation
                     FinishDate = createTask.FinishDate
                 };
 
-                await _messagePublisher.PublishMessageAsync(taskCreatedEvent.MessageType, taskCreatedEvent, string.Empty);
+                await _messagePublisher.PublishMessageAsync(taskCreatedEvent.MessageType, taskCreatedEvent,
+                    string.Empty);
+                await transaction.CommitAsync();
                 return true;
             }
-
-            return false;
+            catch (Exception e)
+            {
+                await transaction.RollbackAsync();
+                return false;
+            }
         }
 
         public async Task<bool> EditTaskAsync(int taskId, EditTask editTask)
